@@ -1,0 +1,25 @@
+{
+  "name": "zml.js",
+  "version": "0.0.1",
+  "description": "Javascript interpretor for the ZML language",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/edpaget/zml.git"
+  },
+  "author": "Edward Paget",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/edpaget/zml/issues"
+  },
+  "homepage": "https://github.com/edpaget/zml",
+  "dependencies": {
+    "pegjs": "~0.7.0",
+    "coffee-script": "~1.6.3",
+    "mocha": "~1.15.1",
+    "chai": "~1.8.1"
+  }
+}
